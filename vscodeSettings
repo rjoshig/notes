@@ -1,0 +1,40 @@
+##This was used as a workspace settings
+
+{
+	"folders": [
+		{
+			"path": "/home/rjoshi/sandbox/code/dev/notes"
+		},
+		{
+			"path": "/home/rjoshi/sandbox/code/dev/quasar/qticket-book"
+		},
+		{
+			"path": "/home/rjoshi/sandbox/code/dev/vue/ticket-booking-app"
+		}
+	],
+	"settings": {
+		"vetur.completion.useScaffoldSnippets": true,
+		"vetur.validation.template": false,
+		"eslint.validate": [
+			{
+				"language": "vue",
+				"autoFix": true
+			},
+			{
+				"language": "html",
+				"autoFix": true
+			},
+			{
+				"language": "javascript",
+				"autoFix": true
+			},
+			{
+				"language": "javascriptreact",
+				"autoFix": true
+			}
+		],
+		"eslint.autoFixOnSave": true,
+		"editor.formatOnSave": true,
+		"git.ignoreLimitWarning": true,
+	}
+}
