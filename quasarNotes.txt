@@ -1,0 +1,28 @@
+quasar create <folder_name>
+Project Name
+
+#To run 
+
+quasar dev
+emulator -list-avds
+quasar dev -m cordova -T android
+ quasar dev -m android -e Nexus_5X_API_26  <-- this worked
+
+ Environment Variables;
+ # quasar ext add @quasar/dotenv
+
+#steps
+ 1. quasar create <folder_name>
+ 2. quasar ext add @quasar/dotenv   //Add env variables in file
+ 3. quasar ext add @quasar/icon-genie
+ 4. quasar ext add @quasar/testing
+ 5. read icon genie for splashscreen etc
+ 6. 
+
+ #To add boot files
+ quasar new boot <name>
+
+
+ <div v-if="$q.platform.is.ios">
+      Gets rendered only on iOS platform.
+    </div>
